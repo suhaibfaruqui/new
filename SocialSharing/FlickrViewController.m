@@ -102,6 +102,8 @@ NSMutableArray *photolinkslarge;
     [self performSegueWithIdentifier:@"detail" sender:self];
 }
 
+
+
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"detail"]) {
         NSArray *indexPaths = [self.collection indexPathsForSelectedItems];
